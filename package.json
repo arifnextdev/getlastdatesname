@@ -1,0 +1,28 @@
+{
+  "name": "getlastdatesname",
+  "version": "1.0.0",
+  "description": "A package to get names of last day, last 7 days, last month, last six months, and last 12 months.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariful171042/getlastdatesname.git"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "last day",
+    "last 7 days",
+    "last month",
+    "last six months",
+    "last 12 months"
+  ],
+  "author": "MD Ariful Islam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariful171042/getlastdatesname/issues"
+  },
+  "homepage": "https://github.com/ariful171042/getlastdatesname#readme"
+}
