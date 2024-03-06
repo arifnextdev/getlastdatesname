@@ -12,6 +12,8 @@ npm install getlastdatesname
 ```
 
 # Usage
+
+```bash
 const { getLastDayName, getLast7DaysNames, getLastMonthName, getLastSixMonthsNames, getLast12MonthsNames } = require('getlastdatesname');
 
 console.log('Last Day Name:', getLastDayName());
