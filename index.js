@@ -46,7 +46,7 @@ function getLastMonthName() {
   return months[lastMonthIndex];
 }
 
-function getLastMonthsNames(numMonths) {
+function getLastMonthsName(numMonths) {
   const lastMonthsNames = [];
   for (let i = 0; i < numMonths; i++) {
     const month = new Date(today.getFullYear(), today.getMonth() - i, 1);
@@ -60,6 +60,6 @@ module.exports = {
   getLastDayName,
   getLastMonthName,
   getLast7DaysName: () => getLastDaysNames(7),
-  getLast6MonthsNames: () => getLastMonthName(6),
-  getLast12MonthsNames: () => getLastMonthsNames(12),
+  getLast6MonthsNames: () => getLastMonthsName(6),
+  getLast12MonthsNames: () => getLastMonthsName(12),
 };
