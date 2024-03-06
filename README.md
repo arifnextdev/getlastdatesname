@@ -9,6 +9,7 @@ You can install the `getlastdatesname` package via npm:
 ```bash
 npm install getlastdatesname
 
+exit 1
 
 ## Usage
 const { getLastDayName, getLast7DaysNames, getLastMonthName, getLastSixMonthsNames, getLast12MonthsNames } = require('getlastdatesname');
